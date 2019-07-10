@@ -29,9 +29,10 @@ class PythonStudent():
 
 #实例化一个叫yueyue的学生
 yueyue = PythonStudent()
+mimi = PythonStudent()
 
 print(yueyue.name)
 print(yueyue.age)
-
+print(PythonStudent.__dict__)
 #注意成员函数的调用没有传递进入参数
 yueyue.doHomework()
