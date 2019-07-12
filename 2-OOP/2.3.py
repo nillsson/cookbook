@@ -88,6 +88,5 @@ class C(B):
         super(C,self).__init__(name)
         print("Cc")
 
-
-
 C = C("mimi")
+
