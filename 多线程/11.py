@@ -20,8 +20,8 @@ if __name__ == '__main__':
 
     print("starting...{0}".format(sum))
 
-    t1 = threading.Thread(target=myAdd(), args=())
-    t2 = threading.Thread(target=myMinu(), args=())
+    t1 = threading.Thread(target=myAdd, args=())
+    t2 = threading.Thread(target=myMinu, args=())
 
     t1.start()
     t2.start()
